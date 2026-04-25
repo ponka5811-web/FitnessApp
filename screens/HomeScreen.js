@@ -60,7 +60,7 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.sectionRow}>
         <Text style={styles.sectionTitle}>All Exercises</Text>
         <TouchableOpacity onPress={() => navigation.navigate('Completed')}>
-          <Text style={styles.sectionLink}>Completed →</Text>
+          <Text style={styles.sectionLink}>Completed</Text>
         </TouchableOpacity>
       </View>
     </View>
