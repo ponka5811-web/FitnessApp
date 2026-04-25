@@ -75,7 +75,7 @@ export default function AddExerciseScreen({ navigation }) {
       duration:    duration.trim() || null,
       category,
     });
-
+    
     Alert.alert(
       '🎉 Exercise Added!',
       `"${name.trim()}" has been added to your workout list.`,
