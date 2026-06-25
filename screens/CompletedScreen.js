@@ -42,7 +42,7 @@ export default function CompletedScreen({ navigation }) {
 
   const EmptyState = () => (
     <View style={styles.empty}>
-      <Text style={styles.emptyIcon}>🎯</Text>
+      <Text style={styles.emptyIcon}></Text>
       <Text style={styles.emptyTitle}>No completed exercises yet</Text>
       <Text style={styles.emptySubtitle}>
         Open any exercise and tap "Mark as Completed" to track your progress.
